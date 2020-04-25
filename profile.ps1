@@ -49,3 +49,4 @@ Import-Module -Name oh-my-posh
 
 # Default the prompt to agnoster oh-my-posh theme
 Set-Theme Fish
+cws
