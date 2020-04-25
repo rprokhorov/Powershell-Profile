@@ -13,14 +13,21 @@ And edit theme Fish and default.ps1 file.
 Steps for install
 1) Install font [JetBrains mono](https://www.jetbrains.com/lp/mono/)
 2) Change font in Powershell console.
-![alt text][change_font]
-[change_font]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_font_1.png?raw=true "Change font in PowerShell console"
-![alt text][change_font]
-[change_font]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_font_2.png?raw=true "Change font in PowerShell console"
+
+![alt text][Change_font_1]
+
+[change_font_1]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_font_1.png?raw=true "Change font in PowerShell console"
+
+![alt text][Change_font_2]
+
+[change_font_2]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_font_2.png?raw=true "Change font in PowerShell console"
+
 3) Run install script
 4) *Optional. If the background color doesn't change, you might change it manually.
+
 ![alt text][change_background]
-[logo]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_background.png?raw=true "Change background"
+
+[change_background]: https://github.com/rprokhorov/Powershell-Profile/blob/master/change_background.png?raw=true "Change background"
 
 
 ```PowerShell
