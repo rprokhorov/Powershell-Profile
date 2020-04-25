@@ -1,14 +1,14 @@
 # Ensure that Get-ChildItemColor is loaded
-Import-Module Get-ChildItemColor
+#Import-Module Get-ChildItemColor
 
 # Set l and ls alias to use the new Get-ChildItemColor cmdlets
-Set-Alias l Get-ChildItemColor -Option AllScope
-Set-Alias ls Get-ChildItemColorFormatWide -Option AllScope
+#Set-Alias l Get-ChildItemColor -Option AllScope
+#Set-Alias ls Get-ChildItemColorFormatWide -Option AllScope
 
 # Helper function to change directory to my development workspace
 # Change c:\ws to your usual workspace and everytime you type
 # in cws from PowerShell it will take you directly there.
-function cws { Set-Location F:\YandexDisk\Git }
+function cws {Set-Location "%~%"}
 
 # Helper function to set location to the User Profile directory
 function cuserprofile { Set-Location ~ }
@@ -40,9 +40,9 @@ Import-Module -Name posh-git
 
 # Start SshAgent if not already
 # Need this if you are using github as your remote git repository
-if (! (ps | ? { $_.Name -eq 'ssh-agent'})) {
-    Start-SshAgent
-}
+#if (! (ps | ? { $_.Name -eq 'ssh-agent'})) {
+#    Start-SshAgent
+#}
 
 # Ensure oh-my-posh is loaded
 Import-Module -Name oh-my-posh
